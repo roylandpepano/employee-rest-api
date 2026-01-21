@@ -9,6 +9,8 @@
         "format": "prettier --write resources/",
         "format:check": "prettier --check resources/",
         "lint": "eslint . --fix",
+        "test": "vitest",
+        "test:run": "vitest run",
         "types": "tsc --noEmit"
     },
     "devDependencies": {
@@ -25,7 +27,8 @@
         "prettier": "^3.4.2",
         "prettier-plugin-organize-imports": "^4.1.0",
         "prettier-plugin-tailwindcss": "^0.6.11",
-        "typescript-eslint": "^8.23.0"
+        "typescript-eslint": "^8.23.0",
+        "vitest": "^3.1.4"
     },
     "dependencies": {
         "@inertiajs/react": "^2.3.7",
