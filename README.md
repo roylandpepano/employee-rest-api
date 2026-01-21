@@ -297,3 +297,7 @@ API tests live in:
 
 - Employee endpoints are protected by `auth:sanctum`.
 - Tokens are created per user/device name; revoke the current token via `DELETE /api/auth/token`.
+
+## Phone Combination Problem
+
+![alt text](public/image.png)
